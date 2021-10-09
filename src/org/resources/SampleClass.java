@@ -2,11 +2,14 @@ package org.resources;
 
 public class SampleClass {
 
-	public static void password() {
+	public  void password() {
 		System.out.println("password");
 	}
+	
 	public static void main(String[] args) {
-		password();	
+		SampleClass s=new SampleClass();
+		s.password();
+		
 	}	
 	
 }
